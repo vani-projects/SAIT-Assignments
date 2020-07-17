@@ -1,0 +1,12 @@
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\CPRG214.Marina.Data.dll.config
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\CPRG214.Marina.Data.dll
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\CPRG214.Marina.Data.pdb
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\EntityFramework.dll
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\EntityFramework.xml
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\obj\Debug\CPRG214.Marina.Data.csproj.CoreCompileInputs.cache
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\obj\Debug\CPRG214.Marina.Data.csproj.CopyComplete
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\obj\Debug\CPRG214.Marina.Data.dll
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\obj\Debug\CPRG214.Marina.Data.pdb
+C:\Users\mpadmin\Desktop\dotnet\ASP\VaniAssignment1.1\CPRG214.Marina\CPRG214.Marina.Data\obj\Debug\CPRG214.Marina.Data.csprojAssemblyReference.cache

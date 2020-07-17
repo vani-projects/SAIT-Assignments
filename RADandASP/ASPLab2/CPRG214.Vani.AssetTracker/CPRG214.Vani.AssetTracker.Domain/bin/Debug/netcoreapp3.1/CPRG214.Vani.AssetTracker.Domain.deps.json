@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CPRG214.Vani.AssetTracker.Domain/1.0.0": {
+        "runtime": {
+          "CPRG214.Vani.AssetTracker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CPRG214.Vani.AssetTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

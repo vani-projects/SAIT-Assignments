@@ -1,0 +1,10 @@
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\bin\Debug\OrdersLINQtoSQL.exe.config
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\bin\Debug\OrdersLINQtoSQL.exe
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\bin\Debug\OrdersLINQtoSQL.pdb
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.csprojAssemblyReference.cache
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.Properties.Resources.resources
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.csproj.GenerateResource.cache
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.csproj.CoreCompileInputs.cache
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.exe
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.pdb
+E:\dotnet\assignmentsRAD\VaniLab4Solution\OrdersLINQtoSQL\OrdersLINQtoSQL\obj\Debug\OrdersLINQtoSQL.frmOders.resources

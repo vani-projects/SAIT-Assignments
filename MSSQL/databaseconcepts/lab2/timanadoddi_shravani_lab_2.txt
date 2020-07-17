@@ -1,0 +1,14 @@
+task 1 :
+
+1. It has poor design. 
+2. the tables/entities are not normalized properly.
+3. Attributes or column names are having spaces."grade description"
+4. Teacher should be seperate entity.
+5. Enrollment entity is missing primary key or foriegn key identifiers.
+6. teacher name should be divided into TeacherFirstname and TeacherLastName
+7. Enrollment table is missing courseNumber and it should not have course name.
+8. Grade should be a seperate entity having GradeCode,GradeDescription,CourseNumber and StudentID.
+9. Department should be a seperate entity.
+10.Course table should have Department and Teacher ID's as foreign keys.
+
+

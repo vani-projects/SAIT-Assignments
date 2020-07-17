@@ -1,0 +1,10 @@
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\bin\Debug\ProductOrderDemo.exe.config
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\bin\Debug\ProductOrderDemo.exe
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\bin\Debug\ProductOrderDemo.pdb
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.csprojAssemblyReference.cache
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.Form1.resources
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.Properties.Resources.resources
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.csproj.GenerateResource.cache
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.csproj.CoreCompileInputs.cache
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.exe
+E:\dotnet\assignmentsRAD\vaniLab3Solution\ProductOrderDemo\ProductOrderDemo\obj\Debug\ProductOrderDemo.pdb

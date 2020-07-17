@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CPRG214.Vani.AssetTracker.Data\CPRG214.Vani.AssetTracker.Data.csproj" />
+    <ProjectReference Include="..\CPRG214.Vani.AssetTracker.Domain\CPRG214.Vani.AssetTracker.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

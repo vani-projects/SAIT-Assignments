@@ -1,0 +1,95 @@
+--AUTHOR : SHRAVANI
+--CREATE DATABASE NAMED MYWEBDB
+
+create database MyWebDB
+
+-- CREATE TABLES PRODUCTS,USERS AND DOWNLOADS FOR THE DATABASE MYWEBDB 
+
+Use MyWebDB
+
+create table Products
+( ProductID		int		not null	identity(1,1),
+ProductName    varchar(50) not null 
+CONSTRAINT PK_Products PRIMARY KEY CLUSTERED (
+	ProductID ASC
+ ))
+
+ create table Users 
+ (	UserID		int		not null	identity(1,1),
+ EmailAddress   varchar(50) ,
+ FirstName		varchar(50) not null ,
+ LastName		varchar(50) not null
+CONSTRAINT PK_Users PRIMARY KEY CLUSTERED	(
+	UserID ASC
+))
+
+create table Downloads 
+( DownloadID	 int	not null identity(1,1),
+UserId			int    not null references Users (UserID),
+DownloadDate    datetimeoffset not null ,
+FileName		varchar(50) not null,
+ProductID		int		not null references Products (ProductID)
+CONSTRAINT PK_Downloads PRIMARY KEY CLUSTERED (
+	DownloadID ASC
+ ))
+
+
+---- INSERT VALUES INTO USERS,DOWNLOADS AND PRODUCTS TABLES 
+
+ Use MyWebDB
+ SET IDENTITY_INSERT Users ON 
+ insert into Users 
+ (UserID,EmailAddress,FirstName,LastName)
+ values
+ (1,'tshravani@gmail.com','Shravani','joshi'),
+ (2,'vani@gmail.com','vani','joshi')
+ SET IDENTITY_INSERT Users OFF
+
+
+ SET IDENTITY_INSERT Products ON 
+ insert into Products (ProductID,ProductName)
+ values 
+ (1,'iphone'),
+ (2,'android'),
+ (3,'nexus')
+ SET IDENTITY_INSERT Products OFF
+
+
+ SET IDENTITY_INSERT Downloads ON 
+ insert into Downloads (DownloadID,UserId,DownloadDate,FileName,ProductID)
+ values
+ (1,1,'01-23-2020','sqlnotes',1),
+ (2,1,'11-15-2019','dbnotes',3),
+ (3,2,'12-30-2019','joinnotes',1),
+ (4,2,'12-25-2019','partylist',2)
+ SET IDENTITY_INSERT Downloads OFF
+
+----SELECTING RECORDS FROM TABLES
+
+
+ SELECT * 
+ FROM Products
+
+ SELECT *
+ FROM Users
+
+ SELECT * 
+ FROM Downloads
+
+---- select records from three tables using join 
+
+ select emailaddress,firstname,lastname,downloaddate,filename,productname
+ from Users join Downloads
+ on Users.UserID = Downloads.DownloadID 
+ join Products
+ on Downloads.ProductID = Products.ProductID
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.csprojAssemblyReference.cache
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.csproj.CoreCompileInputs.cache
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.AssemblyInfoInputs.cache
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.AssemblyInfo.cs
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.deps.json
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.pdb
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Data.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Data.pdb
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.pdb
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.csproj.CopyComplete
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.BLL\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.BLL.pdb

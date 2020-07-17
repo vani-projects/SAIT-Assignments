@@ -1,0 +1,9 @@
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.deps.json
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\bin\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.pdb
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.AssemblyInfo.cs
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.dll
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.pdb
+C:\Users\mpadmin\source\repos\CPRG214.Vani.AssetTracker\CPRG214.Vani.AssetTracker.Domain\obj\Debug\netcoreapp3.1\CPRG214.Vani.AssetTracker.Domain.csprojAssemblyReference.cache

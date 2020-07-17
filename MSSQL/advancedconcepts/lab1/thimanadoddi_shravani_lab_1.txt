@@ -1,0 +1,51 @@
+-- 1)calculate and display how many days before the due date the invoice was paid
+
+select InvoiceID,InvoiceNumber,
+		CONVERT(date,InvoiceDate) as InvoiceDate,
+		convert(date,InvoiceDueDate) as InvoiceDuedate,
+		convert(date,paymentdate) as Paymentdate,
+		DATEDIFF(day,PaymentDate,InvoiceDueDate) as PrepaidInvoice
+from Invoices
+where PaymentDate < InvoiceDueDate
+order by PrepaidInvoice desc
+
+-- 2)display invoice id's together with how many lines each invoice has
+
+select InvoiceId,count(*) as LineCount
+from InvoiceLineItems
+group By InvoiceID
+having count(*) > 1
+
+
+-- 3)add InvoiceNumber and VendorName to the above 
+
+select Invoices.InvoiceNumber,Vendors.VendorName,Invoices.InvoiceID,count(*) as LineCount
+from InvoiceLineItems
+join Invoices on 
+	InvoiceLineItems.InvoiceID = Invoices.InvoiceID 
+join Vendors on
+	Vendors.VendorID = Invoices.VendorID
+group by Invoices.InvoiceNumber,Vendors.VendorName,Invoices.InvoiceID	
+having count(*) > 1
+
+
+-- 4)Display account numbers and descriptions of all accounts from GLAccounts table that are NOT
+--referenced by any invoice line item.
+
+select GLAccounts.AccountNo,GLAccounts.AccountDescription
+from GLAccounts left join InvoiceLineItems 
+	on GLAccounts.AccountNo = InvoiceLineItems.AccountNo
+where  InvoiceLineItems.AccountNo is null --GLAccounts.AccountNo not in (select AccountNo from InvoiceLineItems)
+
+
+
+-- 5)display vendor ID, vendor name and the date of the most
+--recent invoice of that vendor.
+select Vendors.VendorID,Vendors.VendorName, CONVERT(date, max(Invoices.InvoiceDate)) as MostRecentInvoice
+from Vendors join Invoices 
+	on Vendors.VendorID = Invoices.VendorID
+group by Vendors.VendorID,vendors.VendorName
+
+
+
+

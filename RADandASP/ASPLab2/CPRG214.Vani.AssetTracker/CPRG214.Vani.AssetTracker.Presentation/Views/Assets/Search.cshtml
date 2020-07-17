@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h3>Asset Types</h3>
+
+<select id="ddlAssetTypes" asp-items="ViewBag.AssetTypes"></select>
+
+<div id="divDisplay">
+    @* call to viewcomponent directly from view i.e here*@
+    
+    @await Component.InvokeAsync("AssetsByType", 0)
+
+</div>
+
+@section Scripts{ 
+
+<script>
+    $(document).ready(function () {
+
+        $("#ddlAssetTypes").change(function () {
+            var assetTypeID = $("#ddlAssetTypes").val();
+
+            $.ajax({
+
+                method: 'GET',
+                url: '/Assets/GetAssetsByType',
+                data: {id:assetTypeID}
+
+            }).done(function (result,statusText,xhdr) {
+                $("#divDisplay").html(result);
+
+            });
+
+        });
+    });
+
+</script>
+}

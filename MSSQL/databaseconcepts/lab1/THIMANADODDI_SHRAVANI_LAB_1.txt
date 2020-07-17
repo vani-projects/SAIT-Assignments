@@ -1,0 +1,32 @@
+--Question 1
+SELECT InvoiceID,InvoiceNumber,InvoiceTotal,PaymentTotal,CreditTotal
+FROM Invoices
+WHERE PaymentTotal <> 0 or CreditTotal <> 0 
+
+--Question 2
+SELECT VendorID,VendorName,VendorCity,VendorState
+FROM Vendors
+WHERE VendorState 
+IN ('AZ','NJ','NV','OH')
+ORDER BY VendorState,VendorCity
+
+--Question 3
+SELECT InvoiceID,VendorID,InvoiceDate,InvoiceTotal
+FROM Invoices
+WHERE VendorID = 123 and InvoiceDate < '01-01-2016'
+
+--Question 4
+SELECT * 
+FROM GLAccounts
+WHERE AccountDescription liKE  'Book[^s]%'
+
+--Question 5
+SELECT VendorID,VendorName,VendorPhone,
+	VendorContactFName + ', ' + VendorContactLName AS VendorContact
+FROM Vendors
+WHERE VendorPhone IS  NULL
+
+--Question 6
+SELECT DISTINCT InvoiceLineItemDescription 
+FROM InvoiceLineItems
+WHERE InvoiceLineItemDescription LIKE 'C%'
